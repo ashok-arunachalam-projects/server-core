@@ -1,0 +1,10 @@
+<?xml version = "1.0"encoding = "UTF-8"?>
+ <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Home-Server-Suite">
+<test name = "Home-Server-Tests">
+    <classes>
+        <class name="com.server.core.handlers.ImageHandlerTest" />
+        <class name="com.server.core.handlers.FileHandlerTest" />
+    </classes>
+</test>
+</suite>
